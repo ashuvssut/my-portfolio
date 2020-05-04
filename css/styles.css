@@ -1,0 +1,361 @@
+:root{
+   --primary-color: #e0ebe8;
+}
+.grey-bg{
+   background-color: var(--primary-color);
+}
+* {
+   box-sizing: border-box;
+   margin: 0px;
+   padding: 0px;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+   font-family: 'Open Sans', sans-serif;
+   color: #4ab19a;
+ 
+}
+p{
+   font-family: 'Crimson Pro', sans-serif;
+   font-size: 20px;
+   color: #545454;
+} 
+
+hr{
+   border-color: #d5fff6;
+   border-style: none;
+}
+.divider{
+   border-top-style: dotted;
+   margin: 140px auto;
+   border-width: 9px; /*will decide border style's (circle's dia) */
+   width: 83px;
+}
+#hello{
+   padding-top: 60px
+}
+body{
+   
+   font-family: 'Crimson Pro', sans-serif;
+   line-height: 1.5;
+   background-color: #ffff;
+   text-align: center;
+}
+
+/*navbar */
+
+a.active{
+   color: black;
+}
+.navbar {
+   padding-top: 0px;
+   padding-bottom: 0px;
+   background-color: var(--primary-color) ;
+   opacity: 0.9;
+   position: fixed;/*  Make it stick/fixed */
+   top: 0; /* Stay on top */
+   left:0;
+   z-index: 10;
+   width: 100%; /* Full width */
+   transition: top 0.3s; /* Transition effect when sliding down (and up) */
+}
+ 
+.navbar-brand{
+   height: 68px;
+   width: 68px;
+   margin: 10px;
+   margin-left: 5rem;  
+}
+.navbar-collapse{
+   text-align: right;
+   padding-right: 40px;
+}
+.navbar-toggler{
+   margin-right: 40px;
+}
+.nav-link{
+   font-family: 'BenchNine', sans-serif;
+   font-size:1.2rem;
+   font-weight: 100;
+   margin: 0px 20px;
+}
+.me-img{
+   height: 62px;
+   width: 62px;
+} 
+.transistion {
+      -webkit-transition: all .5s ease-in-out;
+      transition: all .5s ease-in-out;
+}
+/*spacer */
+.spacer{
+    width: 100%;
+    height: 147.983px;
+}
+
+/*title */
+.cloud{
+   position: absolute;
+   width: 150px;
+   height: 55px;
+   z-index: 5;
+}
+.cloud-left{
+   left: -2.5em;
+   bottom: 0em;
+}
+@media screen and (min-width: 645px){
+   .cloud-left {
+      left: 5em;
+      bottom: -1.5em;
+   }
+}
+@media screen and (min-width: 992px){
+   .cloud-left {
+      left: 13em;
+      bottom: -3.5em;
+   }
+}
+.cloud-right{
+   right: -2.5em;
+   top: -2em;
+}
+@media screen and (min-width: 645px){
+   .cloud-right {
+      right: 5em;
+      top: -3.5em;
+   }
+}
+@media screen and (min-width: 992px){
+   .cloud-right {
+      right: 13em;
+      top: -4.5em;
+   }
+}
+.im-ashu{
+   max-width: 350px;
+   width: 100%;
+   display: block;
+   margin: 100px auto 10px auto ;
+}
+.head-slide{
+   
+   position: relative;
+   z-index:6;
+}
+.land{
+   width: 100%;
+}
+@media screen and (min-width: 525px) {
+  .land {
+      max-width: 800px;
+      display: block;
+      margin: 10px auto 0px auto;
+   }
+ }
+p.title-desc{
+   font-family:Marck script;
+   margin:35px 0px;
+   font-size: 7vw;
+   
+}
+@media screen and (min-width: 525px) {
+   p.title-desc {
+      font-size: 1.7rem;
+   }
+}
+.title-head{
+   margin: 0px auto;
+}
+
+/*hello */
+
+.me-img-big{
+   height:150px;
+   width: 150px;
+   display: block;
+   margin: 0px auto 40px ;
+}
+
+#hello article{
+   width: 65%;
+   margin: 0px auto;
+}
+
+/*What i do */
+#what-i-do h1 {
+   color:#1e836c;
+}
+#what-i-do .row{
+   margin: 90px auto  ;
+   width: 80%;
+}
+.pos-shift{
+   display:flex;
+}
+.do-desc-rt{
+   text-align: left;
+   padding:0px 5% 0px 0px;
+}
+.do-desc-lt{
+   text-align: right;
+   padding:0px 0px 0px 5%;
+}
+
+@media screen and (max-width: 992px){
+   .do-desc-rt, .do-desc-lt{
+      text-align: center;
+      padding:0px;
+      padding-top: 30px;
+   }
+   .pos1{
+      order:2;
+   }
+   .pos2{
+      order:1;
+   }
+}
+/*what-i-do animated icons and line*/
+.no-margin{
+   margin: 0px;
+}
+.padding-left{
+   padding-left: 30px;
+}
+.padding-right{
+   padding-right: 30px;
+}
+.design-info, .dev-info, .flexing{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.rect-dot{
+   display: inline-block;
+   border-top-style: dashed;
+   
+   border-width: 4px; /*will decide border style's (breadth) */
+   width: 100%;
+}
+.bubbling-design-icons-vert{
+   box-sizing: border-box;
+   animation-name: bubblinger-vert-down;
+   width: 77px;
+   height: 77px;
+   border-radius: 100%;
+   animation-duration: 20s;
+   animation-iteration-count: infinite;
+   animation-timing-function: cubic-bezier(1,0,0,1);  
+   background-image: url(/assets/img/design-icons-vert.png)
+}
+.bubbling-dev-icons-vert{
+   box-sizing: border-box;
+   animation-name: bubblinger-vert-down;
+   width: 77px;
+   height: 77px;
+   border-radius: 100%;
+   animation-direction: reverse;
+   animation-duration: 20s;
+   animation-iteration-count: infinite;
+   animation-timing-function: cubic-bezier(1,0,0,1);  
+   background-image: url(/assets/img/dev-icons-vert.png)
+}
+@keyframes bubblinger-vert-down{
+   0% {
+      background-position: 0 0;
+  }
+  5% {
+      background-position: 0 77px;
+  }
+  35% {
+      background-position: 0 77px;
+  }
+  40% {
+      background-position: 0 154px;
+  }
+  68% {
+      background-position: 0 154px;
+  }
+  73% {
+      background-position: 0 231px;
+  }
+  100% {
+      background-position: 0 231px;
+  }
+}
+
+/*i can help */
+#i-can-help h1{
+   color:#1e836c;
+   margin: 50px auto;
+}
+#i-can-help h5{
+   margin-bottom: 20px;
+}
+.im-avail{
+   width: 65%;
+   margin: 0px auto;
+}
+
+/*Message me button */
+.msg-button{
+   background-color: #45b29a;
+   margin:10px auto 50px;
+   border: none;
+}
+.msg-button:hover{
+   background-color: #3da08a;
+   transform: scale(0.98);
+   transition: .3s ease-in-out;
+   border: none;
+}
+.email{/*(message me button text) */
+   font-family: 'Open Sans', sans-serif;
+   font-size: 15px;
+   padding: 0px 15px;
+   text-decoration: none;
+   color:#1b7f69;
+   
+}
+.email:hover{
+   
+   text-decoration: none;
+   color:#1b7f69;
+   cursor: pointer;
+}
+
+.msg-button:hover .fa-envelope,
+.msg-button .fa-paper-plane {
+   display: none;
+}
+.msg-button:hover .fa-paper-plane{
+   display: inline;
+}
+/*footer */
+#footer h2{
+   padding-top: 30px;
+   padding-bottom: 2px;
+}
+#footer p{
+   margin-bottom: 0px;
+   padding: 30px 0px;
+   font-size: 15px;
+   color: #45b29a;
+   font-size: 1em;
+   font-weight: 400;
+
+}
+
+
+#footer p a {
+   color: #45b29a;
+   text-decoration: none;
+   border-bottom: 1px solid #45b29a;
+}
+#footer p a:hover{
+   transition: all .3s ease-in-out;
+   color: #1b7f69;
+}
+
+.social a{
+   margin: 0px 10px; 
+}
