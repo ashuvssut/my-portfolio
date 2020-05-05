@@ -125,7 +125,7 @@ a.active{
    }
 }
 .cloud-right{
-   right: -4.2em;
+   right: 0em;
    top: -2em;
 }
 @media screen and (min-width: 645px){
@@ -263,7 +263,7 @@ p.title-desc{
    animation-duration: 20s;
    animation-iteration-count: infinite;
    animation-timing-function: cubic-bezier(1,0,0,1);  
-   background-image: url(https://ashuvssut.github.io/my-portfolio/assets/img/design-icons-vert.png)
+   background-image: url(https://ashuvssut.github.io/my-portfolio/assets/img/design-icons-vert.png);
 }
 .bubbling-dev-icons-vert{
    box-sizing: border-box;
@@ -275,7 +275,7 @@ p.title-desc{
    animation-duration: 20s;
    animation-iteration-count: infinite;
    animation-timing-function: cubic-bezier(1,0,0,1);  
-   background-image: url(https://ashuvssut.github.io/my-portfolio/assets/img/dev-icons-vert.png)
+   background-image: url(https://ashuvssut.github.io/my-portfolio/assets/img/dev-icons-vert.png);
 }
 @keyframes bubblinger-vert-down{
    0% {
