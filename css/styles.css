@@ -125,7 +125,7 @@ a.active{
    }
 }
 .cloud-right{
-   right: -4.2em;
+   right: 0em;
    top: -2em;
 }
 @media screen and (min-width: 645px){
@@ -268,7 +268,7 @@ p.title-desc{
 .bubbling-dev-icons-vert{
    box-sizing: border-box;
    animation-name: bubblinger-vert-down;
-   width: 77px;
+   width: 77px;h
    height: 77px;
    border-radius: 100%;
    animation-direction: reverse;
