@@ -30,11 +30,20 @@ hr{
    border-width: 9px; /*will decide border style's (circle's dia) */
    width: 83px;
 }
+
+.padding-left{
+   padding-left: 30px;
+}
+.padding-right{
+   padding-right: 30px;
+}
 #hello{
    padding-top: 60px
 }
+
 body{
-   
+   max-width: 100%;
+   overflow-x: hidden;
    font-family: 'Crimson Pro', sans-serif;
    line-height: 1.5;
    background-color: #ffff;
@@ -100,7 +109,7 @@ a.active{
    z-index: 5;
 }
 .cloud-left{
-   left: -2.5em;
+   left: -4.2em;
    bottom: 0em;
 }
 @media screen and (min-width: 645px){
@@ -116,7 +125,7 @@ a.active{
    }
 }
 .cloud-right{
-   right: -2.5em;
+   right: -4.2em;
    top: -2em;
 }
 @media screen and (min-width: 645px){
@@ -170,10 +179,26 @@ p.title-desc{
 /*hello */
 
 .me-img-big{
-   height:150px;
+   height:auto;
    width: 150px;
    display: block;
    margin: 0px auto 40px ;
+}
+@media screen and (max-width: 340px) {
+   .me-img-big {
+      height:87px;
+      width:87px;
+
+   }
+   .padding-left{
+      padding-left: 0px;
+   }
+   .padding-right{
+      padding-right: 0px;
+   }
+}
+.no-margin{
+   margin: 0px;
 }
 
 #hello article{
@@ -215,19 +240,12 @@ p.title-desc{
    }
 }
 /*what-i-do animated icons and line*/
-.no-margin{
-   margin: 0px;
-}
-.padding-left{
-   padding-left: 30px;
-}
-.padding-right{
-   padding-right: 30px;
-}
+
 .design-info, .dev-info, .flexing{
    display: flex;
    align-items: center;
    justify-content: center;
+   padding: 0px;
 }
 .rect-dot{
    display: inline-block;
@@ -355,7 +373,13 @@ p.title-desc{
    transition: all .3s ease-in-out;
    color: #1b7f69;
 }
-
-.social a{
-   margin: 0px 10px; 
+.social-container{
+   display: flex;
+   max-width: 350px;
+   align-items: center;
+   
+}
+.social .social-container a{
+   
+   margin: 0px auto; 
 }
