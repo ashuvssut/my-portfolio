@@ -8,3 +8,8 @@ This my first website that I created. Inspired by http://seanhalpin.io/.
 My website fits all (practical) screen sizes that you can ever imagine of. So you can say that my portfolio more responsive than the original Sean Halpin Website.
 
 I tried to imitate all of the design and animations present in his portfolio. I wrote all the code myself to atleast nearly imitate his portfolio.
+
+
+#Pending Tasks
+
+1. Add animations to '''section=\"title\"'''
