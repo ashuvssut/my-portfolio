@@ -10,7 +10,7 @@ My website fits all (practical) screen sizes that you can ever imagine of. So yo
 I tried to imitate all of the design and animations present in his portfolio. I wrote all the code myself to atleast nearly imitate his portfolio.
 
 
-#Pending Tasks
+# Pending Tasks
 
 1. Add some more animations to title section.
 2. Work on new Notes Tab.
