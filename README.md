@@ -13,4 +13,4 @@ I tried to imitate all of the design and animations present in his portfolio. I 
 # Pending Tasks
 
 1. Add some more animations to title section.
-2. Work on new Notes Tab.
+2. Work on the new Notes Tab.
