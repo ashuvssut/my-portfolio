@@ -14,3 +14,4 @@ I tried to imitate all of the design and animations present in his portfolio. I 
 
 1. Add some more animations to title section.
 2. Work on the new Notes Tab.
+3. Add a Showcase tab/ Work tab that opens up a page to showcase projects.
